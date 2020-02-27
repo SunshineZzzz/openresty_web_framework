@@ -6,6 +6,7 @@ local is_empty = utils.is_empty
 
 -- get /test
 local function get_test(app, req, res, prms)
+	res:send("get_test")
 	return true
 end
 
